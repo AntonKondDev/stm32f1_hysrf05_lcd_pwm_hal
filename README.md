@@ -3,7 +3,7 @@
 Проект реализует **измеритель расстояния** на базе ультразвукового датчика **HY-SRF05** и микроконтроллера **STM32F103C8T6 (Blue Pill)**.  
 Расстояние отображается на **LCD1602** (через расширитель **PCF8574 по I²C**), а также используется **светодиодная и звуковая индикация на PWM**.
 
-- [Электрическая принципиальная схема](./docs/ElectricalSchematicDiagram.pdf)
+- [Электрическая принципиальная схема](./docs/ElectricalSchematicDiagram.png)
 - [Конфигурация в CubeMX](./docs/CubeMX.jpg)
 - [Подключение ST-LINK V2](./docs/STLinkV2.jpg)
 - [Видеодемонстрация](https://youtube.com/shorts/hrjaTZsLUqA?feature=share)
@@ -126,7 +126,7 @@ stm32f1_hysrf05_lcd_pwm_hal/
 
 Откройте файл HY-SRF05_LCD1602_HAL.ioc в STM32CubeIDE.
 
-Сгенерируйте и собери проект (Ctrl + B).
+Сгенерируйте и соберите проект (Ctrl + B).
 
 Прошейте устройство через ST-LINK V2.
 
